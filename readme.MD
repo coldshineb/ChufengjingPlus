@@ -1,1 +1,2 @@
-### **ChufengjingPlus Mod for Chufengjing server**
+### **ChufengjingPlus**
+ChufengjingPlus Mod for Chufengjing server
