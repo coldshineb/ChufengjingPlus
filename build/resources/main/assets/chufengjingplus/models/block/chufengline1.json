@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chufengjingplus:blocks/chufengline1",
+    "up": "chufengjingplus:blocks/chufengline1",
+    "north": "chufengjingplus:blocks/chufengline1",
+    "east": "chufengjingplus:blocks/chufengline1",
+    "south": "chufengjingplus:blocks/chufengline1",
+    "west": "chufengjingplus:blocks/chufengline1",
+    "particle": "chufengjingplus:blocks/chufengline1"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "chufengjingplus",
+    "name": "Chufengjing Plus Mod",
+    "description": "",
+    "version": "1.2",
+    "credits": "Chufengjing Plus Mod",
+    "logoFile": "assets/chufengjingplus/textures/chufengjing.png",
+    "mcversion": "1.12.2",
+    "url": "https://dream.stomt.world/",
+    "updateUrl": "",
+    "authorList": [
+      "Coldshine"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

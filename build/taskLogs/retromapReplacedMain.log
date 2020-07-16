@@ -1,0 +1,248 @@
+Processing 9 files
+Start Processing: world/stomt/dream/chufengjingplus/ChufengjingPlusMod.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 5 imports
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.item.Item
+        net.minecraft.potion.Potion
+        net.minecraft.world.biome.Biome
+End  Processing: world/stomt/dream/chufengjingplus/ChufengjingPlusMod.java
+
+Start Processing: world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables.java
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/MapVariables/MapVariables ()V world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/MapVariables
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/MapVariables/MapVariables (Ljava/lang/String;)V world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[853,864]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[933,943]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1040,1049]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1070,1078]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1394,1407]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1410,1423]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1530,1543]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1546,1553]::setData->func_75745_a
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldVariables/WorldVariables ()V world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldVariables
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1896,1907]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1976,1986]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2083,2092]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2113,2121]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2337,2345]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2506,2519]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2651,2658]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3017,3023]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[3032,3046]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3055,3071]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3129,3135]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3144,3149]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3185,3197]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3200,3216]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3257,3269]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3272,3278]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3286,3291]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3483,3492]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3668,3676]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3745,3758]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3761,3768]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3858,3865]::setData->func_75745_a
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4354,4364]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4622,4633]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Adding 4 imports
+        net.minecraft.client.Minecraft
+        net.minecraft.nbt.NBTTagCompound
+        net.minecraft.world.World
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables.java
+
+Start Processing: world/stomt/dream/chufengjingplus/ClientProxyChufengjingPlusMod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: world/stomt/dream/chufengjingplus/ClientProxyChufengjingPlusMod.java
+
+Start Processing: world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod.java
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod/ElementsChufengjingPlusMod ()V world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod/ModElement
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3741,3749]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4130,4135]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4144,4152]::isRemote->field_72995_K
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+Rename field net/minecraft/entity/Entity/world[4248,4253]::world->field_70170_p
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+Rename field net/minecraft/entity/Entity/world[4355,4360]::world->field_70170_p
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+Rename field net/minecraft/entity/Entity/world[4915,4920]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4929,4937]::isRemote->field_72995_K
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+Rename field net/minecraft/entity/Entity/world[5037,5042]::world->field_70170_p
+New Key: class world/stomt/dream/chufengjingplus/ChufengjingPlusModVariables
+FOUND CONSTR method world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod/ModElement/ModElement (Lworld/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod;I)V world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 19 imports
+        java.util.ArrayList
+        java.util.Collections
+        java.util.HashMap
+        java.util.List
+        java.util.Map
+        java.util.Random
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.Potion
+        net.minecraft.util.ResourceLocation
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+        net.minecraft.world.chunk.IChunkProvider
+        net.minecraft.world.gen.IChunkGenerator
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod.java
+
+Start Processing: world/stomt/dream/chufengjingplus/IProxyChufengjingPlusMod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: world/stomt/dream/chufengjingplus/IProxyChufengjingPlusMod.java
+
+Start Processing: world/stomt/dream/chufengjingplus/ServerProxyChufengjingPlusMod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: world/stomt/dream/chufengjingplus/ServerProxyChufengjingPlusMod.java
+
+Start Processing: world/stomt/dream/chufengjingplus/block/BlockChufengLine1.java
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method world/stomt/dream/chufengjingplus/block/BlockChufengLine1/BlockChufengLine1 (Lworld/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod;)V world/stomt/dream/chufengjingplus/block/BlockChufengLine1
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1437,1453]::getItemFromBlock->func_150898_a
+FOUND CONSTR method world/stomt/dream/chufengjingplus/block/BlockChufengLine1/BlockCustom/BlockCustom ()V world/stomt/dream/chufengjingplus/block/BlockChufengLine1/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1639,1643]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1660,1678]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1695,1707]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GROUND[1719,1725]::GROUND->field_185849_b
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1740,1751]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1763,1776]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1787,1800]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1810,1825]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1834,1848]::setCreativeTab->func_149647_a
+Import: world.stomt.dream.chufengjingplus.creativetab.TabChufengjingMetroLines
+Import: world.stomt.dream.chufengjingplus.ElementsChufengjingPlusMod
+Adding 11 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraftforge.client.event.ModelRegistryEvent
+        net.minecraftforge.client.model.ModelLoader
+        net.minecraftforge.fml.common.registry.GameRegistry
+        net.minecraftforge.fml.relauncher.Side
+        net.minecraftforge.fml.relauncher.SideOnly
+End  Processing: world/stomt/dream/chufengjingplus/block/BlockChufengLine1.java
+
+Start Processing: world/stomt/dream/chufengjingplus/creativetab/TabChufengjingMetroLines.java
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+FOUND CONSTR method world/stomt/dream/chufengjingplus/creativetab/TabChufengjingMetroLines/TabChufengjingMetroLines (Lworld/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod;)V world/stomt/dream/chufengjingplus/creativetab/TabChufengjingMetroLines
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[779,793]::getTabIconItem->func_78016_d
+Rename method net/minecraft/creativetab/CreativeTabs/setBackgroundImageName (Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;[957,979]::setBackgroundImageName->func_78025_a
+Import: world.stomt.dream.chufengjingplus.item.ItemChufengjing
+Import: world.stomt.dream.chufengjingplus.ElementsChufengjingPlusMod
+Adding 4 imports
+        net.minecraft.creativetab.CreativeTabs
+        net.minecraft.item.ItemStack
+        net.minecraftforge.fml.relauncher.Side
+        net.minecraftforge.fml.relauncher.SideOnly
+End  Processing: world/stomt/dream/chufengjingplus/creativetab/TabChufengjingMetroLines.java
+
+Start Processing: world/stomt/dream/chufengjingplus/item/ItemChufengjing.java
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class world/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method world/stomt/dream/chufengjingplus/item/ItemChufengjing/ItemChufengjing (Lworld/stomt/dream/chufengjingplus/ElementsChufengjingPlusMod;)V world/stomt/dream/chufengjingplus/item/ItemChufengjing
+FOUND CONSTR method world/stomt/dream/chufengjingplus/item/ItemChufengjing/ItemCustom/ItemCustom ()V world/stomt/dream/chufengjingplus/item/ItemChufengjing/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1388,1400]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1409,1421]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1434,1452]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1503,1517]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1581,1602]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1646,1667]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1732,1747]::getDestroySpeed->func_150893_a
+Import: world.stomt.dream.chufengjingplus.creativetab.TabChufengjingMetroLines
+Import: world.stomt.dream.chufengjingplus.ElementsChufengjingPlusMod
+Adding 9 imports
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraftforge.client.event.ModelRegistryEvent
+        net.minecraftforge.client.model.ModelLoader
+        net.minecraftforge.fml.common.registry.GameRegistry
+        net.minecraftforge.fml.relauncher.Side
+        net.minecraftforge.fml.relauncher.SideOnly
+End  Processing: world/stomt/dream/chufengjingplus/item/ItemChufengjing.java
+

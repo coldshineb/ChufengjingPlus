@@ -1,0 +1,62 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ChufengjingMetroLines",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChufengLine1",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Chufengjing",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.chufengjing.name": "Chufengjing Logo",
+      "itemGroup.tabchufengjingmetrolines": "Chufengjing|Metro Line",
+      "tile.chufengline1.name": "Line 1"
+    },
+    "zh_cn": {
+      "item.chufengjing.name": "初风境 图标",
+      "itemGroup.tabchufengjingmetrolines": "初风境|轨道交通颜色",
+      "tile.chufengline1.name": "1号线"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "chufengjingplus",
+    "modName": "Chufengjing Plus Mod",
+    "version": "1.2",
+    "author": "Coldshine",
+    "websiteURL": "https://dream.stomt.world/",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "chufengjing",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Chufengjing Plus Mod",
+    "modElementsPackage": "world.stomt.dream.chufengjingplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
