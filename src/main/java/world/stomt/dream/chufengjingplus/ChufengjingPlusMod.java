@@ -46,9 +46,9 @@ import java.util.function.Supplier;
 @Mod(modid = ChufengjingPlusMod.MODID, version = ChufengjingPlusMod.VERSION)
 public class ChufengjingPlusMod {
 	public static final String MODID = "chufengjingplus";
-	public static final String VERSION = "1.2";
+	public static final String VERSION = "1.5";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("chufengjingplus:a");
-	@SidedProxy(clientSide = "world.stomt.dream.chufengjingplus.ClientProxyChufengjingPlusMod", serverSide = "world.stomt.dream.chufengjingplus.ServerProxyChufengjingPlusMod")
+	@SidedProxy(clientSide = "world.stomt.dream.chufengjingplus.common.ClientProxyChufengjingPlusMod", serverSide = "world.stomt.dream.chufengjingplus.common.ServerProxyChufengjingPlusMod")
 	public static IProxyChufengjingPlusMod proxy;
 	@Mod.Instance(MODID)
 	public static ChufengjingPlusMod instance;

@@ -1,10 +1,11 @@
-package world.stomt.dream.chufengjingplus;
+package world.stomt.dream.chufengjingplus.common;
 
 import net.minecraftforge.fml.common.event.*;
 import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.Display;
+import world.stomt.dream.chufengjingplus.IProxyChufengjingPlusMod;
 import world.stomt.dream.chufengjingplus.common.Startup;
 import world.stomt.dream.chufengjingplus.external.IconLoader;
 
