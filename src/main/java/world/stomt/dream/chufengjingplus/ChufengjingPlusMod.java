@@ -39,7 +39,8 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.potion.Potion;
 import net.minecraft.item.Item;
 import net.minecraft.block.Block;
-
+import org.apache.logging.log4j.Logger;
+import world.stomt.dream.chufengjingplus.common.Startup;
 import java.util.function.Supplier;
 
 @Mod(modid = ChufengjingPlusMod.MODID, version = ChufengjingPlusMod.VERSION)
@@ -62,6 +63,7 @@ public class ChufengjingPlusMod {
 		MinecraftForge.EVENT_BUS.register(elements);
 		elements.getElements().forEach(element -> element.preInit(event));
 		proxy.preInit(event);
+
 	}
 
 	@Mod.EventHandler

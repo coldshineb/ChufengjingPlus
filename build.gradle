@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.2"
+version = "1.5"
 group = "world.stomt.dream.chufengjingplusmod"
 archivesBaseName = "ChufengjingPlusMod"
 
@@ -40,4 +40,6 @@ runClient.outputs.upToDateWhen { false }
 runServer.outputs.upToDateWhen { false }
 
 apply from: 'mcreator.gradle'
-
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
